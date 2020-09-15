@@ -48,7 +48,7 @@ matplotlib==3.3.2
 nbconvert==5.6.1
 nbformat==5.0.7
 notebook==6.0.3
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233707986/work
+numpy==1.19.1
 olefile==0.46
 packaging==20.4
 pandas==1.0.5
@@ -57,14 +57,14 @@ parso==0.7.0
 pathtools==0.1.2
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1594213010297/work
+Pillow==7.2.0
 poyo==0.5.0
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
 protobuf==3.12.2
 ptyprocess==0.6.0
 pyarrow==0.17.1
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
+# pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
 pydeck==0.4.0b2
 Pygments==2.6.1
 pyparsing==2.4.7
