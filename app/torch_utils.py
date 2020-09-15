@@ -5,7 +5,7 @@ from PIL import Image
 import io
 # hyper parameters
 input_size = 784 # 28x28
-hidden_size = 100
+hidden_size = 500
 output_size = 10
 
 # load model
@@ -39,9 +39,7 @@ def transform_image(image_bytes):
                                     transforms.Normalize((0.1307,), (0.3081,))])
     
     image = Image.open(io.BytesIO(image_bytes))
-
     return transform(image).unsqueeze(0)
-
 
 # predict
 def get_predication(image_tensor):
